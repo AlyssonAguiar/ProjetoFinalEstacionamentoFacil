@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionarActivity"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/nomeMotorista"
+        android:layout_marginTop="10dp"
+        android:hint="Nome Motorista"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+/>
+    <EditText
+        android:id="@+id/placa"
+        android:layout_marginTop="10dp"
+        android:hint="Placa"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/numeroMotorista"
+        android:layout_marginTop="10dp"
+        android:hint="Número Motorista"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/marca"
+        android:layout_marginTop="10dp"
+        android:hint="Marca veiculo"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/taxa"
+        android:layout_marginTop="10dp"
+        android:hint="Taxa"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:background="@color/teal_700"
+        android:text="Salvar"
+        android:id="@+id/adicionarCarroBtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
